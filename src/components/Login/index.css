@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #fcfbfa;
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+.logo {
+  width: 50%;
+  margin-bottom: 50px;
+}
+.input {
+  font-size: 14px;
+  height: 35px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+.name {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.submit {
+  margin-top: 20px;
+  background-color: #0f5366;
+  color: #ffffff;
+  border-width: 0px;
+  padding: 10px;
+  width: 70px;
+  border-radius: 2px;
+}
